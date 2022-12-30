@@ -1,6 +1,6 @@
 console.log("Hello World");
 
-let myChart = new Chart("myChart", {
+let myBarChart = new Chart("myBarChart", {
   type: "bar",
   data: {
     labels: [
