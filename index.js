@@ -30,6 +30,7 @@ let myBarChart = new Chart("myBarChart", {
     ],
   },
   options: {
+    legend: { display: false },
     title: {
       display: true,
       text: "Title",
