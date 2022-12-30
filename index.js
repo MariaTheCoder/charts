@@ -1,1 +1,32 @@
-console.log('Hello World');
+console.log("Hello World");
+
+let myChart = new Chart("myChart", {
+  type: "bar",
+  data: {
+    labels: [
+      "Denmark",
+      "Germany",
+      "France",
+      "Spain",
+      "Italy",
+      "Greece",
+      "Turkey",
+      "Sweden",
+    ],
+    datasets: [
+      {
+        backgroundColor: [
+          "green",
+          "red",
+          "yellow",
+          "blue",
+          "orange",
+          "brown",
+          "grey",
+          "darkblue",
+        ],
+        data: [55, 67, 23, 32, 68, 30, 25, 30],
+      },
+    ],
+  },
+});
