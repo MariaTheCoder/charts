@@ -29,4 +29,10 @@ let myChart = new Chart("myChart", {
       },
     ],
   },
+  options: {
+    title: {
+      display: true,
+      text: "Title",
+    },
+  },
 });
