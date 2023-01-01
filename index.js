@@ -50,5 +50,14 @@ new Chart("myBarChart", {
       display: true,
       text: "Title",
     },
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            beginAtZero: true,
+          },
+        },
+      ],
+    },
   },
 });
